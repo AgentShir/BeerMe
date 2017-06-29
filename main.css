@@ -59,6 +59,8 @@ img{
 
     background-size: cover;
     background-position: right bottom;
+    position: static;
+    z-index: 15;
 }
 #site-header div h1,
 #site-header div h3{
@@ -119,6 +121,7 @@ main{
     background-color: #444;
     box-shadow: -5px 5px 8px rgba( 0, 0, 0, 0.3 );
     width: 500px;
+    position: relative;
 
     /*
         TODO:
