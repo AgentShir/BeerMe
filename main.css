@@ -119,6 +119,7 @@ main{
     background-color: #444;
     box-shadow: -5px 5px 8px rgba( 0, 0, 0, 0.3 );
     width: 500px;
+
     /*
         TODO:
         - Flexbox: Set the starting width of this element
@@ -170,6 +171,7 @@ article time{
     color: #666;
 }
 article img{
+  float: right;
 
 
     /*
