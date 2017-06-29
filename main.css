@@ -29,8 +29,7 @@ img{
 }
 .wrapper{
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    flex-wrap: wrap;
 
     /*
         TODO:
@@ -47,7 +46,6 @@ img{
     */
 }
 #site-header div{
-    text-align: center;
     padding: 60px 0 120px 0;
     font-size: 4em;
     background-image: image(../b52ad1ce-ibeer_starter_files/ibeer_starter_files/img/header-img.jpg);
@@ -112,8 +110,6 @@ img{
     */
 }
 main{
-    display: flex;
-
     padding: 20px;
     background-color: #444;
     box-shadow: -5px 5px 8px rgba( 0, 0, 0, 0.3 );
@@ -124,8 +120,6 @@ main{
     */
 }
 aside{
-    display: flex;
-    flex-direction: column;
     padding: 20px;
     background-color: #eee;
     box-shadow: 5px 5px 8px rgba( 0, 0, 0, 0.3 );
@@ -169,7 +163,7 @@ article time{
     color: #666;
 }
 article img{
-    clear: right;
+
     /*
         TODO:
         - Float article images to the right
